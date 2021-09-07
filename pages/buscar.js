@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import DetallesProducto from '../components/layout/DetallesProducto';
 import useProducto from '../hooks/useProducto';
 
+// cambio para github
 const Buscar = () => {
 
   const router = useRouter();
