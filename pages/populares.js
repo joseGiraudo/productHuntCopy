@@ -4,9 +4,9 @@ import DetallesProducto from '../components/layout/DetallesProducto';
 
 import useProducto from '../hooks/useProducto';
 
-export default function Home() {
-
-  const { productos } = useProducto('creado');
+export default function Poulares() {
+  
+  const { productos } = useProducto('votos');
 
   return (
     <div>
@@ -27,3 +27,4 @@ export default function Home() {
     </div>
   )
 }
+  
